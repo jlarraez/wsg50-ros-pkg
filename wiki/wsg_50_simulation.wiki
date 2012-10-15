@@ -21,7 +21,7 @@ This node provide the necessary to teleoperate the gripper via keyboard. We can 
 
 ==3. Published topics==
 
- * */wsg_50_gl/state:* Publish the state of the gripper left controller, implemented using a simple _*robot_mechanism_controllers/JointPositionController*_.
+ * */wsg_50_gl/state:* Publish the state of the gripper left controller, implemented using a simple *robot_mechanism_controllers/JointPositionController*.
  * */wsg_50_gr/state:* Publish the state of the gripper right.
 
 ==4. Services===
