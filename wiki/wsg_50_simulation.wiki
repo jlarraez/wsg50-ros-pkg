@@ -1,4 +1,3 @@
-#labels wsg_50,gripper,simulation,Robotnik,Weiss
 ==1. Package Summary==
 
 This package implements the necessary for the simulation in Gazebo of the WSG-50 gripper (URDF'S, meshes, controllers and programs).
