@@ -1,4 +1,3 @@
-#labels wsg_50,package,parameters,launch
 ==1. Package Summary==
 
 This package implements the driver in TCP/IP and CAN of the WSG-50 gripper.
