@@ -30,7 +30,7 @@ There are two nodes, one for each mode of connection.
 
 _(Where *x* can be *tcp* or *can* depeding on the node that we have executed.)_
 
-==4. Avaiable services===
+==4. Services===
 
  * *wsg_50_x/move:* Moves fingers to an absolute position at a specific velocity. Deprecated by the creation of the next service.
  * *wsg_50_x/move_incrementally:* Moves fingers to a specific distance in a specific direction (open/close) regarding the anterior position.
