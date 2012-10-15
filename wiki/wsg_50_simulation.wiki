@@ -1,0 +1,35 @@
+#labels wsg_50,gripper,simulation,Robotnik,Weiss
+==1. Package Summary==
+
+This package implements the necessary for the simulation in Gazebo of the WSG-50 gripper (URDF'S, meshes, controllers and programs).
+
+
+ * Autor: Robotnik Automation
+ * License: BSD
+ * Source: svn https://wsg50-ros-pkg.googlecode.com/svn/trunk/wsg_50_simulation
+ 
+==2. Nodes ==
+
+===2.1. wsg_50_sim_driver===
+
+This node is executed automatically in the launch file and provide services that fake the WSG-50 gripper originals.
+
+===2.2. wsg_50_keyboard_teleop===
+
+This node provide the necessary to teleoperate the gripper via keyboard. We can open the fingers pressing *"W"* and we can close them by pressing *"S"*.
+
+
+==3. Published topics==
+
+ * */wsg_50_gl/state:* Publish the state of the gripper left controller, implemented using a simple _*robot_mechanism_controllers/JointPositionController*_.
+ * */wsg_50_gr/state:* Publish the state of the gripper right.
+
+==4. Services===
+
+ * *wsg_50_sim/move:* Moves fingers to an absolute position [0.0 - 110.0]
+ * *wsg_50_sim/homing:* Moves fingers to home position (minimum opening).
+
+==5. Start up==
+
+ # *roslaunch wsg_50_simulation wsg_50.launch* to get a complete simulated WSG-50 gripper running in Gazebo.
+ # If you want to teleoperate it, run on a separate terminal: *rosrun wsg_50_simulation wsg_50_keyboard_teleop*
