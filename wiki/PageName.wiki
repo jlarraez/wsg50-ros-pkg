@@ -1,3 +1,5 @@
+#summary wsg_50
+
 =wsg_50=
 
 ==1. Package Summary==
