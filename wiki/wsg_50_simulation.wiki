@@ -29,7 +29,7 @@ This node provide the necessary to teleoperate the gripper via keyboard. We can 
  * *wsg_50_sim/move:* Moves fingers to an absolute position [0.0 - 110.0]
  * *wsg_50_sim/homing:* Moves fingers to home position (minimum opening).
 
-==5. Start up==
+==5. Startup==
 
  # *roslaunch wsg_50_simulation wsg_50.launch* to get a complete simulated WSG-50 gripper running in Gazebo.
  # If you want to teleoperate it, run on a separate terminal: *rosrun wsg_50_simulation wsg_50_keyboard_teleop*
