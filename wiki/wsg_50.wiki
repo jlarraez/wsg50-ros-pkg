@@ -6,7 +6,7 @@ Part of this driver is based on the original standalone driver for TCP developed
 
  * Autor: Robotnik Automation
  * License: BSD
- * Source: svn https://wsg50-ros-pkg.googlecode.com/svn/trunk/
+ * Source: svn https://wsg50-ros-pkg.googlecode.com/svn/trunk/wsg_50
  
 ==2. Nodes ==
 
