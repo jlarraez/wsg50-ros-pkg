@@ -20,12 +20,7 @@ There are two nodes, one for each mode of connection.
 
 ===2.2. wsg_50_can===
 
- # Connect the CAN cable and power on the gripper (24V). Be sure that you have switched to CAN mode before, this can be done via TCP going to the section "Connection Mode" in the configuration site (192.168.1.20). You have to select:
-
-    Protocol: CAN.
-    Speed: 500bps
-    Node number: 1
-
+ # Connect the CAN cable and power on the gripper (24V). Be sure that you have switched to CAN mode before, this can be done via TCP going to the section "Connection Mode" in the configuration site (192.168.1.20). You have to select: _Protocol: CAN. Speed: 500bps. Node number: 1._
  # *roslaunch wsg_50 wsg_50_can.launch* (This creates a socket that connects to the desired device (by default /dev/pcan32). This device is configurable via the launch file in the parameter "device".
 
 
@@ -35,15 +30,15 @@ There are two nodes, one for each mode of connection.
 
 _(Where *x* can be *tcp* or *can* depeding on the node that we have executed.)_
 
-==4. Services===
+==4. Avaiable services===
 
  * *wsg_50_x/move:* Moves fingers to an absolute position at a specific velocity. Deprecated by the creation of the next service.
  * *wsg_50_x/move_incrementally:* Moves fingers to a specific distance in a specific direction (open/close) regarding the anterior position.
  * *wsg_50_x/grasp:* Grasps an object of a specific width at a specific velocity. Normally used setting a zero width object and a low velocity.
  * *wsg_50_x/release:* Releases a grasped object opening the fingers to a indicated position.
  * *wsg_50_x/homing:* Moves fingers to home position (maximum opening).
- * *wsg_50_x/stop:* Stops a current action. Not working yet.
- * *wsg_50_x/ack:* Acknowledged an occurred error. Not working yet.
+ * *wsg_50_x/stop:* Stops a current action. *Not working yet.*
+ * *wsg_50_x/ack:* Acknowledged an occurred error. *Not working yet.*
  * *wsg_50_x/set_acceleration:* Set the acceleration with the gripper fingers moves.
  * *wsg_50_x/set_force:* Set the force with the gripper grasp objects.
 
