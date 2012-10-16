@@ -1,6 +1,6 @@
 ==1. Package Summary==
 
-This package implements the driver in TCP/IP and CAN of the WSG-50 gripper.
+This package implements the driver in TCP/IP and CAN of the WSG 50 gripper.
 Part of this driver is based on the original standalone driver for TCP developed by Weiss.
 
  * Autor: Robotnik Automation
