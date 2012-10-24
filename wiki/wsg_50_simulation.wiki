@@ -5,7 +5,7 @@ This package implements the necessary for the simulation in Gazebo of the WSG 50
 
  * Autor: [http://www.robotnik.eu/ Robotnik Automation]
  * License: BSD
- * Source: svn https://wsg50-ros-pkg.googlecode.com/svn/trunk/wsg_50_simulation
+ * Source: svn http://wsg50-ros-pkg.googlecode.com/svn/trunk/wsg_50_simulation
  
 ==2. Nodes ==
 
