@@ -28,7 +28,7 @@ This node provide the necessary to teleoperate the gripper via keyboard. We can 
  * *wsg_50_sim/move:* Moves fingers to an absolute position [0.0 - 110.0]
  * */wsg_50/move_incrementally:* Service based on the previous that allow to move the gripper with the "robotnik_powerball_pad".
  * *wsg_50_sim/homing:* Moves fingers to home position (minimum opening).
- * */wsg_50/grasp:* Moves fingers to 0.0.
+ * */wsg_50/grasp:* Moves fingers to 0.0 (same that home, faked service to allow to use with the "robotnik_powerball_pad".
 
 
 
